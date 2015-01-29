@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roc-a-Fellas Pizza | A Taste Of New York</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <div class="btn-group">
+          <li><a href="index.html"><img src="img/logo.jpg" height="75px" width="250px" class="logo"></a></li>
+          <li><a href="menu.html"><button type ="button" class="btn btn-link btn-md">Menu</button></a></li>
+          <li><a href="contact.html"><button type ="button" class="btn btn-link btn-md">Contact</button></a></li>
+          <li><a href="about.html"><button type ="button" class="btn btn-link btn-md">About</button></a></li>                          <li>Ready to Order? Call Now: (513)769-3128</li> 
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="container">
+        <div class="col-md-6">
+          <img src="http://placehold.it/500x250">
+        </div>
+        <div class="col-md-6">
+          <p>At Rocafella's Pizza we hand make our own dough, fresh daily - right here in our own kitchen. It's our own authentic New York recipe.</p>
+
+          </p>Each morning we blend our homemade, special New York sauce, made with crushed tomatoes, garlic, authentic Italian spices, real Romano cheese, and our tasty secret – a dash of sour cream! Mmmm yummy.</p>
+
+          <p>We hand-toss the dough to make every pizza in the true New York style – Thinner hand–tossed pizza with light sauce and a crisped bottom. Then we cover it with toppings made fresh daily using authentic New York recipes and the finest ingredients available.</p>
+
+          <p>Then we bake your pizza in a genuine stone oven for that wonderful “Big Apple” flavor.</p>
+
+          <p>You can buy it by the slice (big enough to fold) or get whole pies.</p>
+
+          <p>And not only that, we make hoagies, sandwiches, and salads – all made to order the way you want.</p>
+
+          <p>For a true “Taste of New York” come in today! We are located in Sharonville, in the Square, next to the Post Office – plenty of parking in rear of our building.</p>
+
+          <h1>Our Guarantee...</h1>
+
+          <p>At Rocafella's Pizza we stand firmly behind our products. If for any reason you are not completely thrilled with our pizza we will make it right for you, whatever it takes.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Thumbnails -->
+
+    <hr>
+
+     <!-- Footer -->
+   <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="copyright text-muted">Copyright &copy; Roc-a-Fellas Pizza 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+       
+          $("[rel='tooltip']").tooltip();    
+       
+          $('#hover-cap-4col .thumbnail').hover(
+              function(){
+                  $(this).find('.caption').slideDown(250); //.fadeIn(250)
+              },
+              function(){
+                  $(this).find('.caption').slideUp(250); //.fadeOut(205)
+              }
+          );    
+       
+      });        
+    </script>
+  </body>
+</html>
